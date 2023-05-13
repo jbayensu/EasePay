@@ -1,0 +1,88 @@
+body{
+    margin-bottom: 80px;
+    background-image: url("../../img/backgrounds/background_2.jpg");
+}
+.navbar-custom{
+	color:#FFFFFF;
+	background-color: #CC6600;
+}
+
+.navbar-default{
+	color:#FFFFFF;
+	background-color: #CC6600;
+	border-color: #CC6600;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color:#000;
+}
+
+.navbar-default .navbar-nav > .active a, .navbar-default .navbar-nav > .active> a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	color: white;
+	background-color:#663300;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus{
+	color:#cc6600;
+	text-decoration: none;
+	background-color: #996600
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus{
+	text-decoration: none;
+	background-color: #cc6600;
+}
+
+.navbar-default .navbar-nav >li >a{
+	color: white;
+}
+.navbar-brand{
+	color: white;
+}
+
+@media only screen and (max-width: 780px){
+
+	.dropdown-menu{
+		display: none !important;
+	}
+	.open .dropdown-menu{
+		display: block !important;
+	}
+}
+
+.col-color{
+	color: #000000;
+}
+
+.col-padding{
+	padding:1px;
+	border-color: white;
+}
+
+.no-margin{
+	margin: 0px;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.dropdownLarge{
+	width: 1330px;
+    height: 250px;
+    padding: 20px;
+    margin: 10px
+
+}
+
+.startButton{
+	z-index: 100;
+	position: fixed;
+	top:3px;
+	left:5px;
+	margin: 5px 5px 0 0;
+}
